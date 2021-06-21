@@ -1,0 +1,65 @@
+@model MVCTest.Data.ViewModels.HomePageViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1 class="text-center">Employees</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3 class="text-center">From Database</h3>
+        <table class="table">
+            <tr>
+                <th class="col-md-2">
+                    @Html.DisplayName("Full Name")
+                </th>
+                <th class="col-md-2">
+                    @Html.DisplayName("Email")
+                </th>
+                <th class="col-md-2">
+                    @Html.DisplayName("Phone Number")
+                </th>
+                <th class="col-md-2">
+                    @Html.DisplayName("Years Active")
+                </th>
+                <th class="col-md-2"></th>
+            </tr>
+            @foreach (var employee in Model.FromDB)
+            {
+                @Html.Partial("_EmployeeBlock", employee)
+            }
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3 class="text-center">From CSV</h3>
+        <table class="table">
+            <tr>
+                <th class="col-md-2">
+                    @Html.DisplayName("Full Name")
+                </th>
+                <th class="col-md-2">
+                    @Html.DisplayName("Email")
+                </th>
+                <th class="col-md-2">
+                    @Html.DisplayName("Phone Number")
+                </th>
+                <th class="col-md-2">
+                    @Html.DisplayName("Years Active")
+                </th>
+                <th class="col-md-2"></th>
+            </tr>
+            @foreach (var employee in Model.FromCSV)
+            {
+                @Html.Partial("_EmployeeCSV", employee)
+            }
+        </table>
+    </div>
+    <p>
+        <h3>
+            @Html.ActionLink("Add New Employee", "CreateEmployee")
+        </h3>
+    </p>
+</div>

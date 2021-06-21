@@ -1,0 +1,13 @@
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\bin\Debug\MVCTest.Data.dll.config
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\bin\Debug\MVCTest.Data.dll
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\bin\Debug\MVCTest.Data.pdb
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\bin\Debug\EntityFramework.dll
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\bin\Debug\EntityFramework.xml
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\obj\Debug\MVCTest.Data.Migrations.initial.resources
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\obj\Debug\MVCTest.Data.csproj.GenerateResource.cache
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\obj\Debug\MVCTest.Data.csproj.CoreCompileInputs.cache
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\obj\Debug\MVCTest.Data.csproj.CopyComplete
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\obj\Debug\MVCTest.Data.dll
+C:\Users\anantha\Desktop\Interview\Gallagher\TestProject\Test\MVCTest.Data\obj\Debug\MVCTest.Data.pdb
